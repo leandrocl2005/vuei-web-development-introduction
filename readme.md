@@ -100,11 +100,12 @@ class MedicineSerializer(ModelSerializer):
 
 - Em *core/urls.py* adicione a seguinte url: `path('api/medicines/', ListMedicines.as_view())`
 - Em *core/urls.py* import de *medicines/api/views.py* a view `ListMedicines`.
+- Crie o arquivo *medicines/api/\_\_init\_\_.py*
 
 - Em *medicines/api/views.py* crie a view `ListMedicines`:
 ```python
-from .serializers import MedicineSerializer
-from .models import Medicine
+from ..serializers import MedicineSerializer
+from ..models import Medicine
 from rest_framework import generics
 
 
