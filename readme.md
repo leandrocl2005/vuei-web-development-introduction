@@ -233,4 +233,47 @@ urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 </html>
 ```
 
-- Faça os estilos ao seu gosto!
+- Faça os estilos ao seu gosto! Exemplo:
+
+```css
+body {
+    background: #fefefe;
+    max-width: 800px;
+    margin: 64px auto;
+}
+
+table {
+    margin-top: 16px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+  
+tr:hover {background-color: #ddd;}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #06D6A0;
+    color: white;
+}
+
+button {
+    background: #06D6A0;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 2px 8px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #EF476F;
+    font-weight: bold;
+}
+```
