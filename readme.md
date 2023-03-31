@@ -203,7 +203,7 @@ def list_medicines(request):
 
 ## Estáticos
 
-- Crie o arquivo *static/style.css*
+- Crie o arquivo *static/css/style.css*
 - Em *core/settings.py*:
 ```python
 import os
