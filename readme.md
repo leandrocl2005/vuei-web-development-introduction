@@ -2,6 +2,10 @@
 
 App para consultar disponibilidade no SUS pelo nome genérico do medicamento.
 
+<h1 align="center">
+  <img alt="api demo" src="./app_image.png" width="600px"/>
+</h1>
+
 ## Requisitos
 
 - Ao entrar no app o usuário vê apenas uma tela com um campo de busca e um botão escrito buscar.
