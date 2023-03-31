@@ -44,7 +44,7 @@ python manage.py createsuperuser
 
 ## Model
 
-- ChatGPT: Faça um modelo de uma lista de tarefas para Django.
+- ChatGPT: Faça um modelo Medicine com campos denominacao_generica, concentracao_composicao, forma_farmaceutica, codigo_atc e componente para Django.
 ```python
 from django.db import models
 
